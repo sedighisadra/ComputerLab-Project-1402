@@ -10,16 +10,21 @@ body {
 .master{
     width: 350px;
     height: 500px;
+    overflow: hidden;
     border-radius: 10px;
     box-shadow: 5px 20px 50px #000;
 }
+
 #check{
     display: none;
 }
+
 .signup{
+
     width: 100%;
     height: 100%;
 }
+
 label{
     color: #ffffff;
     font-size: 2.3em;
@@ -30,6 +35,7 @@ label{
     cursor: pointer;
     transition: 3.5s ease-in-out;
 }
+
 input{
     width: 60%;
     height: 20px;
@@ -42,6 +48,7 @@ input{
     outline: none;
     border-radius: 5px;
 }
+
 button{
     width: 60%;
     height: 40px;
@@ -58,6 +65,7 @@ button{
     transition: .2s ease-in;
     cursor: pointer;
 }
+
 button :hover{
     background: #4A55A2;
 }
@@ -68,4 +76,22 @@ button :hover{
     border-radius: 60% / 10%;
     transform: translateY(-180px);
     transition: .8s ease-in-out;
+}
+
+.login label{
+    color: #4A55A2;
+    transform: scale(.7);
+}
+
+#check:checked ~ .login {
+    transform: translateY(-500px);
+}
+
+#check:checked ~ .login label{
+    transform: scale(.7);
+}
+
+#check:checked ~ .signup label {
+    transform: scale(1);
+
 }
