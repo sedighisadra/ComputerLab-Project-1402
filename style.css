@@ -58,3 +58,13 @@ button{
     transition: .2s ease-in;
     cursor: pointer;
 }
+button :hover{
+    background: #4A55A2;
+}
+
+.login{
+    height: 460px;
+    background: #eee;
+    border-radius: 60% / 10%;
+
+}
