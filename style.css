@@ -7,3 +7,9 @@ body {
     min-height: 100vh;
     background: linear-gradient(#4A55A2,#7895CB,#24243e);
 }
+.master{
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px #000;
+}
