@@ -16,3 +16,18 @@ body {
 #check{
     display: none;
 }
+.signup{
+    width: 100%;
+    height: 100%;
+}
+label{
+    color: #ffffff;
+    font-size: 2.3em;
+    justify-content: center;
+    margin: 60px;
+    display: flex;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 3.5s ease-in-out;
+}
+
